@@ -28,7 +28,7 @@ const About = () => {
           </h1>
   */}
           <p className="lg:text-lg lowercase lg:font-medium font-medium text-sm text-justify max-w-lg text-[#0D0628] p-4 mb-8">
-          I&apos;m Haya AlMajali, and I just graduated from Boston University <span className="text-[#0D0628] font-bold">( woohoo! )</span>. I&apos;m a software developer based in New York, specializing in <span className="font-medium text-[#0D0628]">JavaScript</span>, <span className="font-medium text-[#0D0628]">TypeScript</span>, <span className="font-medium text-[#0D0628]">React</span>, and <span className="font-medium text-[#0D0628]">Next.js</span>. I&apos;m a quick learner with a creative eye and a passion for merging Tech, Product & Design.
+          I&apos;m Haya AlMajali, and I just graduated from Boston University <span className="text-[#0D0628] font-bold">(woohoo!)</span>. I&apos;m a software developer based in New York, specializing in <span className="font-medium text-[#0D0628]">JavaScript</span>,<span className="font-medium text-[#0D0628]">TypeScript</span>,<span className="font-medium text-[#0D0628]">React</span>, and<span className="font-medium text-[#0D0628]">Next.js</span>. I&apos;m a quick learner with a creative eye and a passion for merging Tech, Product & Design.
           </p>
           <div><MagicButton title="about" icon={<FaLocationArrow />} position= "right" />
                 </div>
