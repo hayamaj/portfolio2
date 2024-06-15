@@ -69,7 +69,7 @@ export const images = [
   },
   {
     id: 5,
-    src: "  https://res.cloudinary.com/dqqim3gc1/image/upload/v1718474884/image1_fnesv6.jpg",
+    src: "https://res.cloudinary.com/dqqim3gc1/image/upload/v1718474884/image1_fnesv6.jpg",
     alt: "Image 1",
   },
     {
@@ -84,7 +84,7 @@ export const images = [
   },
   {
     id: 8,
-    src: "  https://res.cloudinary.com/dqqim3gc1/image/upload/v1718474889/image2_lleqfm.jpg",
+    src: "https://res.cloudinary.com/dqqim3gc1/image/upload/v1718474889/image2_lleqfm.jpg",
     alt: "Image 1",
   },
   {
