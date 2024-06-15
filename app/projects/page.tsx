@@ -29,7 +29,7 @@ const Dibs = () => {
             <div className="flex justify-center relative my-20 mb-4 z-10">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
                 <h2 className="uppercase -ml-8 tracking-widest text-xs text-center font-medium text-[#0D0628] -mb-4">2022 - 2024</h2>
-                <TextGenerateEffect className="text-center md:text-6xl lg:text-8xl" words={'DIBS!'} />
+                <TextGenerateEffect className="text-center text-6xl md:text-6xl lg:text-8xl" words={'DIBS!'} />
                 <p className="text-center font-light md:tracking-wider text-sm md:text-lg lg:text-xl text-[#0D0628]">A <span className="font-bold">Digital Thrift Store</span> Solution to <span className="font-bold">Campus Waste Management</span>.</p>
                 {/*<a href="#about"><MagicButton title="about" icon={<FaLocationArrow />} position= "right" />
                 </a>*/}

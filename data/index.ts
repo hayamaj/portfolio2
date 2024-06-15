@@ -8,7 +8,7 @@ export const navItems = [
   ];
 
   export const navItems2 = [
-    { name: "go back home", link: "/" },
+    { name: "back to home", link: "/" },
 
   ];
 
