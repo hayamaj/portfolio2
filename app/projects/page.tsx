@@ -78,7 +78,7 @@ const Dibs = () => {
                 <div className="mt-16 px-8">
                     <h2 className="text-3xl font-bold text-[#E9C6DD] text-left mb-1 uppercase">Problem Statement</h2>
                     <p className="mt-4 text-gray-300 text-left max-w-5xl lowercase">
-                        During move-out periods, our streets get cluttered with perfectly usable items discarded by students (mostly those living off-campus). It's not that these items are in bad shape, it's just easier for students to toss them than to find a new home for them. BU Students actually have a special name for this period &#8212; “Allston Christmas”. While some students do take advantage of this time & scour the streets of Allston for free furniture, it's not enough to address all the waste left out on the streets during this time. So, I wanted to find a solution that would equally benefit the students & protect our environment.
+                        During move-out periods, our streets get cluttered with perfectly usable items discarded by students (mostly those living off-campus). It&apos;s not that these items are in bad shape, it&apos;s just easier for students to toss them than to find a new home for them. BU Students actually have a special name for this period &#8212; “Allston Christmas”. While some students do take advantage of this time & scour the streets of Allston for free furniture, it&apos;s not enough to address all the waste left out on the streets during this time. So, I wanted to find a solution that would equally benefit the students & protect our environment.
                     </p>
                 </div>
 
@@ -100,7 +100,7 @@ const Dibs = () => {
                 <div className="mt-16 px-8">
                     <h2 className="text-3xl font-bold text-[#E9C6DD] text-left mb-1 uppercase">Competitive Analysis</h2>
                     <p className="mt-4 text-gray-300 text-left max-w-5xl lowercase">
-                        Our main competitors, such as <strong className="text-gray-200">Craigslist</strong>, <strong className="text-gray-200">Facebook Marketplace</strong> & <strong className="text-gray-200">BuyNothing</strong> lack features tailored for university students. Facebook Marketplace & Craigslist's broad audience don't cater specifically to students' needs, especially during move-in/move-out periods. Their interfaces fail to accommodate their fast-paced, mobile-centric lifestyles and they lack the sense of community needed to incentivize students to utilize this solution.
+                        Our main competitors, such as <strong className="text-gray-200">Craigslist</strong>, <strong className="text-gray-200">Facebook Marketplace</strong> & <strong className="text-gray-200">BuyNothing</strong> lack features tailored for university students. Facebook Marketplace & Craigslist&apos;s broad audience don&apos;t cater specifically to students&apos; needs, especially during move-in/move-out periods. Their interfaces fail to accommodate their fast-paced, mobile-centric lifestyles and they lack the sense of community needed to incentivize students to utilize this solution.
                     </p>
                 </div>
 
@@ -116,9 +116,9 @@ const Dibs = () => {
                     </div>
                     <h2 className="mt-4 text-3xl font-bold text-[#E9C6DD] text-left uppercase">Key Features</h2>
                     <ul className="mt-4 text-gray-200 list-none space-y-4 lowercase">
-                        <li><strong className="text-2xl text-gray-200 uppercase">1. Post</strong> - Post a picture & short description of an item that you're looking to get rid of.</li>
+                        <li><strong className="text-2xl text-gray-200 uppercase">1. Post</strong> - Post a picture & short description of an item that you&apos;re looking to get rid of.</li>
                         <li><strong className="text-2xl text-gray-200 uppercase">2. View & Favorite</strong> - Scroll through the app, favoriting items that catch your eye & saving them to your profile.</li>
-                        <li><strong className="text-2xl text-gray-200 uppercase">3. Proximity-Based Claiming</strong> - Claim & collect items only when you're in range.</li>
+                        <li><strong className="text-2xl text-gray-200 uppercase">3. Proximity-Based Claiming</strong> - Claim & collect items only when you&apos;re in range.</li>
                         <li><strong className="text-2xl text-gray-200 uppercase">4. Filter by Tags</strong> - Filter your search to find items based on tags like location, color, condition & item type.</li>
                     </ul>
                 </div>
@@ -159,7 +159,7 @@ const Dibs = () => {
                         <ul className="ml-4 mt-4 text-lg list-none space-y-4">
                             <li><strong className="text-2xl text-gray-200 uppercase">1. Expanded</strong> - Expanded the development team by onboarding two new developers.</li>
                             <li><strong className="text-2xl text-gray-200 uppercase">2. Migrated</strong> - Migrated the application from a web-based platform to a mobile-centric environment.</li>
-                            <li><strong className="text-2xl text-gray-200 uppercase">3. Performed</strong> - Performed an overhaul of the app's UI/UX to enhance usability and optimize engagement.</li>
+                            <li><strong className="text-2xl text-gray-200 uppercase">3. Performed</strong> - Performed an overhaul of the app&apos;s UI/UX to enhance usability and optimize engagement.</li>
                             <li><strong className="text-2xl text-gray-200 uppercase">4. Explored</strong> - Explored a more efficient way to facilitate & simplify the acquisition & disposal of items.</li>
                         </ul>
                     </div>
@@ -204,7 +204,7 @@ const Dibs = () => {
     */}
                     </div>
                     <p className="mt-4 text-gray-200 text-left max-w-5xl pb-4">
-                        Dibs! is gearing up for its official launch on app stores by late May, and I couldn't be more excited. This project is an embodiment of everything I am passionate about & skilled in — from crafting code & designs to leveraging technology to address real-world challenges, foster sustainability, and create impactful solutions for users.
+                        Dibs! is gearing up for its official launch on app stores by late May, and I couldn&apos;t be more excited. This project is an embodiment of everything I am passionate about & skilled in — from crafting code & designs to leveraging technology to address real-world challenges, foster sustainability, and create impactful solutions for users.
                     </p>
                 </div>
                 </div>
