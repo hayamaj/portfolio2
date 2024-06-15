@@ -3,11 +3,8 @@
 import About from "@/components/About";
 import AboutMe from "@/components/AboutMe";
 import Art from "@/components/Art";
-import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
-import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
-import Hero2 from "@/components/Hero2";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data";
