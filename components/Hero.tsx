@@ -3,6 +3,7 @@ import { Spotlight } from './ui/Spotlight';
 import { TextGenerateEffect } from './ui/TextGenerateEffect';
 import MagicButton from './ui/MagicButton';
 import { FaLinkedin, FaGithub, FaEnvelope, FaLocationArrow, FaArrowDown } from "react-icons/fa6";
+import Link from 'next/link';
 
 const Hero = () => {
     return (
@@ -28,15 +29,15 @@ const Hero = () => {
                 {/*<a href="#about"><MagicButton title="about" icon={<FaLocationArrow />} position= "right" />
                 </a>*/}
                 <div className="flex items-center justify-center mt-7 mb-3 space-x-4">
-            <a href="mailto:hayamaj@bu.edu" className="text-black">
+            <Link href="mailto:hayamaj@bu.edu" className="text-black">
               <FaEnvelope size={24} />
-            </a>
-            <a href="https://linkedin.com/hayamaj" className="text-black">
+            </Link>
+            <Link href="https://linkedin.com/hayamaj" className="text-black">
               <FaLinkedin size={24} />
-            </a>
-            <a href="https://github.com/your-github" className="text-black">
+            </Link>
+            <Link href="https://github.com/your-github" className="text-black">
               <FaGithub size={24} />
-            </a>
+            </Link>
           </div>
             </div>
         </div>
