@@ -32,7 +32,7 @@ const Hero = () => {
             <Link href="mailto:hayamaj@bu.edu" className="text-black">
               <FaEnvelope size={24} />
             </Link>
-            <Link href="https://linkedin.com/hayamaj" className="text-black">
+            <Link href="https://www.linkedin.com/in/hayamaj" className="text-black">
               <FaLinkedin size={24} />
             </Link>
             <Link href="https://github.com/your-github" className="text-black">
