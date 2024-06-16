@@ -67,7 +67,7 @@ const Dibs = () => {
                 </div>
             */}
 
-                <div className="bg-black">
+                <div className="bg-[#0D0628] rounded-lg">
                 <div className="mt-16 px-8">
                     <h2 className="text-3xl font-bold text-[#E9C6DD] text-left mb-1 pt-4">MY ROLE</h2>
                     <p className="mt-4 text-gray-300 text-left max-w-5xl lowercase">
