@@ -4,39 +4,41 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
+import Link from "next/link";
 
 const RecentProjects = () => {
   return (
-    <div className="pb-48 mt-48" id="projects">
+    <div className="pb-8 mt-48" id="projects">
       <h1 className="heading text-[#0D0628]">RECENT PROJECTS {" "}
         {/*<span className="text-metallic">recent projects.</span>*/}
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-        {projects.map((item) => (
+        {projects.map((projects) => (
           <div
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
-            key={item.id}
+            key={projects.id}
           >
+            <a href={projects.link}>
             <PinContainer
-              title="dibs!"
-              href="app/projects"
+              title={projects.title}
+              href={projects.link}
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#0000" }}
+                  style={{ backgroundColor: "#0D0628" }}
                 >
                   <img src="/bg.png" alt="bgimg" />
                 </div>
                 <img
-                  src={item.img}
+                  src={projects.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute object-cover w-full h-full"
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base text-white line-clamp-1">
-                {item.title}
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base text-[#E9C6DD] line-clamp-1">
+                {projects.title}
               </h1>
 
               <p
@@ -46,12 +48,12 @@ const RecentProjects = () => {
                   margin: "1vh 0",
                 }}
               >
-                {item.des}
+                {projects.des}
               </p>
 
               <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
+                  {projects.iconLists.map((icon, index) => (
                     <div
                       key={index}
                       className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
@@ -65,13 +67,11 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <a href="/projects" className="flex hover:text-[#E9C6DD] lg:text-xl md:text-xs text-sm text-white">
-                    Learn More
-                  </a>
-                  <FaLocationArrow className="ms-3" color="#FFC2E9" />
+                  <FaLocationArrow className="ms-3 mx-4 w-8 h-8" color="#FFC2E9" />
                 </div>
               </div>
             </PinContainer>
+            </a>
           </div>
         ))}
       </div>

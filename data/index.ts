@@ -114,14 +114,20 @@ export const images = [
 export const projects = [
     {
       id: 1,
-      title: "DIBS!",
+      title: "dibs!",
       des: "A Digital Thrift Store Solution to Campus Waste Management.",
       img: "/dibslogo.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/expo.png"],
       link: "/projects",
     },
-    
-    
+    {
+      id: 2,
+      title: "creative",
+      des: "Check out my creative work - art, photo, motion graphics...",
+      img: "/drawingvid.mov",
+      iconLists: ["/photoshop.png", "/illustrator.png", "/figma.png", "/aftereffects.png"], //replace
+      link: "/creative",
+    },
   ];
 
   export const socialMedia = [
@@ -139,58 +145,3 @@ export const projects = [
     },
   ];
   
-  export const testimonials = [
-    {
-      quote:"",
-      name: "",
-      title: "",
-    },
-    {
-      quote:"",
-      name: "",
-      title: "",
-    },
-    {
-      quote:"",
-      name: "",
-      title: "",
-    },
-    {
-      quote:"",
-      name: "",
-      title: "",
-    },
-  ];
-  
-  export const companies = [
-    {
-      id: 1,
-      name: "cloudinary",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
-    },
-    {
-      id: 2,
-      name: "appwrite",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
-    },
-    {
-      id: 3,
-      name: "HOSTINGER",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
-    },
-    {
-      id: 4,
-      name: "stream",
-      img: "/s.svg",
-      nameImg: "/streamName.svg",
-    },
-    {
-      id: 5,
-      name: "docker.",
-      img: "/dock.svg",
-      nameImg: "/dockerName.svg",
-    },
-  ];

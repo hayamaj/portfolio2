@@ -8,7 +8,7 @@ const Art = () => {
     // Extract the image URLs from the images array
   const imageUrls = images.map((image) => image.src);
     return (
-      <div className="py-48 mt-48 bg-black" id="creative">
+      <div className="py-48 mt-0 bg-white" id="creative">
         <h1 className="heading text-[#E9C6DD] mb-36 ">CREATIVE WORK {" "}</h1>
         <div className="mt-4 overflow-hidden mb-8 sm:max-h-screen sm:max-w-screen w-screen h-[800px]"> {/* Wrap video in a rounded container */}
         <video autoPlay loop playsInline muted className="object-cover w-screen h-full">

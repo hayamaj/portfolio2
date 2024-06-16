@@ -26,7 +26,6 @@ const Home = () => {
         <Hero />
         <About />
         <RecentProjects />
-        <Art />
         <Footer />
       </div>
     </main>
