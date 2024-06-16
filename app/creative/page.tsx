@@ -24,7 +24,7 @@ gsap.registerPlugin(useGSAP,ScrollTrigger);
 const Creative = () => {
 
     return (
-        <main className={`bg-white font-mono flex min-h-screen flex-col items-center justify-between`}>
+        <main className={`bg-[#FAF9F6] font-mono flex min-h-screen flex-col items-center justify-between`}>
             <FloatingNav navItems={navItems2} />
             <Art />
 

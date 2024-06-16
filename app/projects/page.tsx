@@ -23,7 +23,7 @@ gsap.registerPlugin(useGSAP,ScrollTrigger);
 const Dibs = () => {
 
     return (
-        <main className={`bg-white font-mono flex min-h-screen flex-col items-center justify-between`}>
+        <main className={`bg-[#FAF9F6] font-mono flex min-h-screen flex-col items-center justify-between`}>
             <FloatingNav navItems={navItems2} />
             <section className="max-w-screen-lg mx-auto px-2 py-20">
             <div className="flex justify-center relative my-20 mb-4 z-10">
