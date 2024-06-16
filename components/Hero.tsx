@@ -35,7 +35,7 @@ const Hero = () => {
             <Link href="https://www.linkedin.com/in/hayamaj" className="text-black">
               <FaLinkedin size={24} />
             </Link>
-            <Link href="https://github.com/your-github" className="text-black">
+            <Link href="https://github.com/hayamaj" className="text-black">
               <FaGithub size={24} />
             </Link>
           </div>
