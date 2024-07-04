@@ -114,16 +114,16 @@ export const images = [
 export const projects = [
     {
       id: 1,
-      title: "dibs!",
-      des: "A Digital Thrift Store Solution to Campus Waste Management.",
+      title: "DIBS!",
+      des: "a digital thrift store solution to campus waste management.",
       img: "/dibslogo.png",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/expo.png"],
       link: "/projects",
     },
     {
       id: 2,
-      title: "creative",
-      des: "Check out my creative work - art, photo, motion graphics...",
+      title: "CREATIVE",
+      des: "check out my creative work - art, photo, motion graphics...",
       img: "/drawingvid.mov",
       iconLists: ["/photoshop.png", "/illustrator.png", "/figma.png", "/aftereffects.png"], //replace
       link: "/creative",

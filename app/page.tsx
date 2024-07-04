@@ -14,13 +14,15 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
     
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import VantaBackground from "@/components/VantaBackground";
 
 
 gsap.registerPlugin(useGSAP,ScrollTrigger);
 
 const Home = () => {
   return (
-    <main className="font-mono relative flex justify-center items-center flex-col overflow-hidden mx-auto bg-[#FAF9F6] min-h-screen w-full">
+    <main className="font-mono relative flex justify-center items-center flex-col overflow-hidden mx-auto min-h-screen w-full">
+      <VantaBackground />
       <div className=" w-full">
         <FloatingNav navItems={navItems} />
         <Hero />

@@ -10,7 +10,7 @@ const Footer = () => {
       
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
         <p className="md:text-sm ml-4 text-black text-xs md:font-light font-light">
-          Copyright © 2024 Haya AlMajali
+          copyright © 2024 haya almajali
         </p>
       </div>
     </footer>

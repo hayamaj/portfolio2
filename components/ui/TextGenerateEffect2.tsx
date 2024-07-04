@@ -43,7 +43,7 @@ export const TextGenerateEffect2 = ({
                 <span
                   key={`${wordIdx}-${charIdx}`}
                   className={`char inline-block ${
-                    wordIdx > 1 ? "text-[#E9C6DD]" : "text-[#0D0628]"
+                    wordIdx > 1 ? "text-[#f87171]" : "text-[#0D0628]"
                   }`}
                 >
                   {char}

@@ -5,11 +5,12 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 import Link from "next/link";
+import VantaBackground from "./VantaBackground";
 
 const RecentProjects = () => {
   return (
     <div className="pb-8 mt-48" id="projects">
-      <h1 className="heading text-[#0D0628]">RECENT PROJECTS {" "}
+      <h1 className="heading text-red-400 lowercase">RECENT PROJECTS {" "}
         {/*<span className="text-metallic">recent projects.</span>*/}
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
@@ -25,8 +26,8 @@ const RecentProjects = () => {
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#0D0628" }}
+                  className="relative w-full h-full overflow-hidden lg:rounded-none"
+                  style={{ backgroundColor: "#000000" }}
                 >
                   <img src="/bg.png" alt="bgimg" />
                 </div>
@@ -37,14 +38,14 @@ const RecentProjects = () => {
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base text-[#E9C6DD] line-clamp-1">
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base text-red-400 lowercase line-clamp-1">
                 {projects.title}
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-xl lg:font-light font-light text-sm line-clamp-2"
                 style={{
-                  color: "#BEC1DD",
+                  color: "#333333",
                   margin: "1vh 0",
                 }}
               >
@@ -56,7 +57,7 @@ const RecentProjects = () => {
                   {projects.iconLists.map((icon, index) => (
                     <div
                       key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                      className="border border-white/[.2] rounded-full bg-white lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{
                         transform: `translateX(-${5 * index + 2}px)`,
                       }}
@@ -67,7 +68,7 @@ const RecentProjects = () => {
                 </div>
 
                 <div className="flex justify-center items-center">
-                  <FaLocationArrow className="ms-3 mx-4 w-8 h-8" color="#FFC2E9" />
+                  <FaLocationArrow className="ms-3 mx-4 w-8 h-8" color="#f87171" />
                 </div>
               </div>
             </PinContainer>

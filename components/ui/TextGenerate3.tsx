@@ -8,7 +8,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 
 
-export const TextGenerateEffect = ({
+export const TextGenerateEffect3 = ({
   words,
   className,
 }: {
@@ -37,10 +37,10 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              initial={{ opacity: 0, color: idx > 1 ? '#FFFFFF' : '#FAF9F6' }}
-              animate={{ opacity: 1, color: idx > 1 ? '#FFFFFF' : '#FAF9F6' }}
+              initial={{ opacity: 0, color: idx > 1 ? '#f87171' : '##f87171' }}
+              animate={{ opacity: 1, color: idx > 1 ? '#008080' : '#f87171' }}
               transition={{ duration: 1, delay: idx * 0.2 }}
-              className={`dark:text-[#0D0628] ${idx > 1 ? 'text-[#FFFFFF] underline decoration-1 underline-offset-2' : 'text-[##FFFFFF]'} opacity-0`}
+              className={`dark:text-[#008080] ${idx > 1 ? 'text-[#f87171]' : 'text-[#f87171]'} opacity-0`}
             >
               {word}{" "}
             </motion.span>

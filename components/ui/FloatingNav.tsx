@@ -64,7 +64,7 @@ export const FloatingNav = ({
         )}
         style={{
           backdropFilter: "blur(16px) saturate(180%)",
-          backgroundColor: "#E9C6DD",
+          backgroundColor: "#f87171",
           borderRadius: "36px",
           border: "1px solid rgba(255, 255, 255, 0.125)",
         }}
@@ -74,7 +74,7 @@ export const FloatingNav = ({
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              "relative dark:text-[#0D0628] items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-100 hover:text-neutral-500"
+              "relative dark:text-white items-center flex space-x-1 text-white dark:hover:text-black hover:text-neutral-200"
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
