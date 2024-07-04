@@ -10,7 +10,7 @@ import VantaBackground from "./VantaBackground";
 const RecentProjects = () => {
   return (
     <div className="pb-8 mt-48" id="projects">
-      <h1 className="heading text-red-400 lowercase">RECENT PROJECTS {" "}
+      <h1 className="heading text-red-400 text-lg lowercase">RECENT PROJECTS {" "}
         {/*<span className="text-metallic">recent projects.</span>*/}
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
@@ -43,7 +43,7 @@ const RecentProjects = () => {
               </h1>
 
               <p
-                className="lg:text-xl lg:font-light font-light text-sm line-clamp-2"
+                className="lg:text-sm lg:font-light font-light text-sm line-clamp-2"
                 style={{
                   color: "#333333",
                   margin: "1vh 0",

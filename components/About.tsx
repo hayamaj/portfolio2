@@ -8,7 +8,7 @@ import MagicButton from "./ui/MagicButton";
 const About = () => {
   return (
     <div className=" py-48 mt-48" id="about">
-      <h1 className="heading text-red-400 lowercase">
+      <h1 className="heading text-red-400 text-lg lowercase">
         ABOUT ME
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-4">
@@ -27,7 +27,7 @@ const About = () => {
             HAYA ALMAJALI
           </h1>
   */}
-          <p className="lg:text-lg lowercase lg:font-light font-light text-sm text-justify max-w-lg text-neutral-950 p-4 mb-8">
+          <p className="lg:text-md lowercase lg:font-light font-light text-md text-justify max-w-lg text-neutral-950 p-4 mb-8">
           I&apos;m Haya AlMajali, and I just graduated from Boston University <span className="font-medium">(woohoo!)</span>. I&apos;m a software developer based in New York, specializing in JavaScript, TypeScript, React, Next.js. I&apos;m a quick learner with a creative eye and a passion for merging Tech, Product & Design.
           </p>
           <div><MagicButton title="about" icon={<FaLocationArrow />} position= "right" />
