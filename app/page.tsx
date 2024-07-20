@@ -22,7 +22,7 @@ gsap.registerPlugin(useGSAP,ScrollTrigger);
 const Home = () => {
   return (
     <main className="font-mono relative flex justify-center items-center flex-col overflow-hidden mx-auto min-h-screen w-full">
-      <VantaBackground />
+     {/* <VantaBackground />*/}
       <div className=" w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
